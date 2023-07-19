@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.25)
+project(Chap04)
+
+set(CMAKE_CXX_STANDARD 17)
+
+#add_executable(Chap04 FuncTemplate1.cpp)
+
+add_executable(FuncTemplate1 FuncTemplate1.cpp)
+add_executable(FuncTemplate2 FuncTemplate2.cpp)
+add_executable(FuncTemplate3 FuncTemplate3.cpp)
+add_executable(ClassTemplate1 ClassTemplate1.cpp)
+add_executable(ClassTemplate2 ClassTemplate2.cpp)
+add_executable(ClassTemplate3 ClassTemplate3.cpp)
+add_executable(ForEach ForEach.cpp)
+add_executable(LessGreater LessGreater.cpp)
+add_executable(Functor Functor.cpp)
+add_executable(Pair Pair.cpp)
+add_executable(Q1 Q1.cpp)
+add_executable(Q2 Q2.cpp)
+add_executable(Q3 Q3.cpp)

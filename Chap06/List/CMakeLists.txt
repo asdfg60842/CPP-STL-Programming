@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.25)
+project(List)
+
+set(CMAKE_CXX_STANDARD 17)
+
+#add_executable(List PushPop.cpp)
+
+add_executable(PushPop PushPop.cpp)
+add_executable(InsertErase InsertErase.cpp)
+add_executable(Insert Insert.cpp)
+add_executable(Remove Remove.cpp)
+add_executable(RemoveIf RemoveIf.cpp)
+add_executable(Splice1 Splice1.cpp)
+add_executable(Splice2 Splice2.cpp)
+add_executable(Reverse Reverse.cpp)
+add_executable(Unique1 Unique1.cpp)
+add_executable(Unique2 Unique2.cpp)
+add_executable(Sort1 Sort1.cpp)
+add_executable(Sort2 Sort2.cpp)
+add_executable(Merge1 Merge1.cpp)
+add_executable(Merge2 Merge2.cpp)

@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.25)
+project(Chap01)
+
+set(CMAKE_CXX_STANDARD 17)
+
+#add_executable(Sec01 Operator1.cpp)
+
+add_executable(Operator1 Operator1.cpp)
+add_executable(ConstMethod ConstMethod.cpp)
+add_executable(Operator2 Operator2.cpp)
+add_executable(Operator3 Operator3.cpp)
+add_executable(Operator4 Operator4.cpp)
+add_executable(Operator5 Operator5.cpp)
+add_executable(Operator6 Operator6.cpp)
+add_executable(Operator7 Operator7.cpp)
+add_executable(Operator8 Operator8.cpp)
+add_executable(Operator9 Operator9.cpp)
+add_executable(Operator10 Operator10.cpp)
+add_executable(Q4 Q4.cpp)
+add_executable(Q5 Q5.cpp)
