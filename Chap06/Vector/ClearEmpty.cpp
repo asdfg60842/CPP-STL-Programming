@@ -32,7 +32,7 @@ int main()
     if (v.empty())
     {
         // size는 0이 되어도 메모리는 제거되지 않고 남아 있게 된다.
-        // 비효율적 -> swap() 사용
+        // 비효율적 -> Capacity(메모리)를 0으로 만드려면 swap() 사용
         cout << "v에 원소가 없습니다." << endl;
         cout << "size : " << v.size() << " capacity : " << v.capacity() << endl;
     }
