@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.25)
+project(ModifyingAlgorithms)
+
+set(CMAKE_CXX_STANDARD 17)
+
+#add_executable(ModifyingAlgorithms Copy.cpp)
+
+add_executable(Copy Copy.cpp)
+add_executable(CopyBackward CopyBackward.cpp)
+add_executable(Fill Fill.cpp)
+add_executable(ForEach1 ForEach1.cpp)
+add_executable(ForEach2 ForEach2.cpp)
+add_executable(Generate Generate.cpp)
+add_executable(Swap Swap.cpp)
+add_executable(Merge2 Merge2.cpp)
+add_executable(Merge1 Merge1.cpp)
+add_executable(Replace Replace.cpp)
+add_executable(ReplaceIf ReplaceIf.cpp)
+add_executable(ReplaceCopy ReplaceCopy.cpp)
+add_executable(SwapRanges SwapRanges.cpp)
+add_executable(Transform1 Transform1.cpp)
+add_executable(Transform2 Transform2.cpp)
+add_executable(Transform3 Transform3.cpp)
